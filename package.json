@@ -1,0 +1,28 @@
+{
+  "name": "fleifel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build" : "tsc",
+    "start" : "npm run build && node dist/index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abodesigner/fleifel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abodesigner/fleifel/issues"
+  },
+  "homepage": "https://github.com/abodesigner/fleifel#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
