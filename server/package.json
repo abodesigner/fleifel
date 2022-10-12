@@ -8,6 +8,7 @@
     "build": "tsc",
     "start": "npm run build && node dist/index.js",
     "test": "npm run build && jasmine",
+    "migration:run": "db-migrate up",
     "format": "prettier --write src/**/*.ts",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix"
